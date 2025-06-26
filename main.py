@@ -6,7 +6,7 @@ from PIL import Image
 
 #load the model from disk
 import joblib
-model = joblib.load(r"Models\model.sav")
+model = joblib.load(r"./Models/model.sav")
 
 #Import python scripts
 from preprocessing import preprocess
