@@ -18,19 +18,6 @@ This app allows users to:
 
 ---
 
-## 📦 Project Structure
-
-```
-customer-churn-prediction/
-│
-├── main.py               # Streamlit app logic and UI
-├── model.sav             # Pre-trained ANN model for churn prediction
-├── requirements.txt      # Python dependencies
-└── README.md             # Project documentation
-```
-
----
-
 ## 🛠️ How to Run Locally
 
 1. **Clone the repository**
@@ -48,10 +35,6 @@ customer-churn-prediction/
    ```bash
    streamlit run main.py
    ```
-
-4. **Open your browser**
-   - Visit: [http://localhost:8501](http://localhost:8501)
-
 ---
 
 ## 📚 Tech Stack
@@ -68,14 +51,3 @@ customer-churn-prediction/
 A telecom company wants to identify customers at risk of leaving. Input fields such as contract type, internet service, tenure, and payment method are provided. The ANN model then predicts churn likelihood, helping decision-makers act early.
 
 ---
-
-## 🙋‍♂️ Author
-
-Developed by [Ayush Jindal](https://github.com/ayush15jindal)  
-🔗 Streamlit: [Customer Churn App](https://ayush15jindal-customer-churn-predictor-main-hjuy0e.streamlit.app/)
-
----
-
-## ✅ License
-
-This project is open source and free to use under the [MIT License](LICENSE).
